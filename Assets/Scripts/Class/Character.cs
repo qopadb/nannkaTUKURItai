@@ -13,14 +13,6 @@ public class Character : Iunit
     public int INF;
     public int VIT;
     public int MND;
-    //補正値ステータス 範囲は3～18
-    public int SIZ;//身長     +STR-AGI
-    public int INT;//賢さ     +INF-MND
-    public int SEN;//センス   +DEX-INF
-    public int STA;//スタミナ +VIT-AGI
-    public int MUS;//筋量     +STR-MAG
-    public int INS;//狂気     +MAG-MND
-    public int SOF;//柔軟性   +DEX-VIT 
     //装備による加算値(基礎ステ7種)
     public int MAGequ;
     public int STRequ;

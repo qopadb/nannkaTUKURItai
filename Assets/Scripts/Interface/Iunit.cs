@@ -5,9 +5,8 @@ using UnityEngine;
 public interface Iunit
 {
     int unitHP { get; set; }
-    int unitMP { get; set; }
     int unitCurrentHP { get; set; }
-    int unitCurrentMP { get; set; }
+    int unitCost { get; set; }
     int unitSpeed { get; set; }//行動ゲージの溜まる速さ
     int unitPower { get; set; }//物理ダメージ
     int unitMagicPower { get; set; }//魔法ダメージ
@@ -18,4 +17,5 @@ public interface Iunit
     int unitAccuracyRate { get; set; }//命中率
     int unitCritical { get; set; }//クリティカル
     int unitDebuffPower { get; set; }//デバフのかけやすさ
+    int unitResilience { get; set; }//回復力
 }
